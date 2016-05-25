@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ll"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    >
+<ImageView android:src="@drawable/s5"
+    android:orientation="vertical" 
+    android:layout_width="300dip"
+    android:layout_height="300dip"
+    android:layout_gravity="center_vertical"
+    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ll01"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    >
+    <ImageView android:src="@drawable/sethb"
+    android:orientation="vertical" 
+    android:layout_width="200dip"
+    android:layout_height="50dip"
+    android:layout_gravity="center_vertical"
+    />
+    <SeekBar 
+      android:id="@+id/SeekBar01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:max="100"
+      android:progress="20"
+   	></SeekBar>
+   
+    <ImageView android:src="@drawable/settcl"
+    android:orientation="vertical" 
+    android:layout_width="200dip"
+    android:layout_height="50dip"
+    android:layout_gravity="center_vertical"
+    />
+ 	<SeekBar 
+      android:id="@+id/SeekBar02" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:max="100"
+      android:progress="20"
+   	></SeekBar>    
+</LinearLayout>
+   
+</LinearLayout>
